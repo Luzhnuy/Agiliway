@@ -14,7 +14,7 @@
 
     <?php foreach($posts as $post): ?>
       <div>
-        <a href="post.php?id=<?=$post['id'] ?>">
+        <a href="post.php?id=<?=$post['id'] ?>&page=1">
           <h2><?=$post['title']; ?></h2>
           <p><?=$post['body']; ?></p>
         </a>
